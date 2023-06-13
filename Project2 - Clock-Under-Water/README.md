@@ -8,5 +8,5 @@ A website that displays the clock.
 - Importing fonts to the sites.
 
 ## Live Demo
-![Live demo link](https://javascript30-clocker-under-water.vercel.app/)
+https://javascript30-clocker-under-water.vercel.app/
 
