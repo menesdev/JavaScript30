@@ -5,7 +5,7 @@ A website that displays the clock.
 - Transform and transition in CSS.
 - Date and time functions in JS
 - setInterval function in JS.
-- Importing fonts to the sites.
+- Including external fonts to the sites.
 
 ## Live Demo
 https://javascript30-clocker-under-water.vercel.app/
