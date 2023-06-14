@@ -4,7 +4,7 @@
 
 The original Javascript30 course at https://javascript30.com 
 
-This repo contains very ideal projects for exercise on JS.
+This repo contains very ideal projects to exercise on JS.
 
 ## To-Do
 
