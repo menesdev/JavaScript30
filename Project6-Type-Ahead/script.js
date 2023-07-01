@@ -4,6 +4,12 @@ const cities = [];
 
 const prom = fetch(endpoint)
   .then(blob => blob.json())
-  .then(data => console.log(data));
+  .then(data => cities.push(...data)); // [...] expression is SPREAD
 
-
+function findMatches(wordToMatch, cities) {
+  return cities.filter(place => {
+    // here we need to figure out if the city or state matches what was searched
+    const regex = new RegExp(wordToMatch, 'gi'); // Regular Expressions
+    return place.city.match(regex) || place.state.match(regex);
+  })
+}
