@@ -17,6 +17,7 @@ body {
 .panels {
   min-height: 100vh;
   overflow: hidden;
+  display: flex;
 }
 
 .panel {
@@ -34,6 +35,11 @@ body {
   font-size: 20px;
   background-size: cover;
   background-position: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .panel1 { background-image:url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500); }
@@ -42,11 +48,16 @@ body {
 .panel4 { background-image:url(https://source.unsplash.com/ITjiVXcwVng/1500x1500); }
 .panel5 { background-image:url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500); }
 
-/* Flex Children */
+/* Flex items */
 .panel > * {
   margin: 0;
   width: 100%;
   transition: transform 0.5s;
+  border: 1px solid red;
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .panel p {
