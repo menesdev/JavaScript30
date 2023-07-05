@@ -32,9 +32,12 @@ console.log(isAdult)
 // Array.prototype.every() // is everyone 19 or older?
 const isEveryoneAdult = people.every(person => (new Date()).getFullYear() - person.year >= 19)
 console.log(isEveryoneAdult);
+
 // Array.prototype.find()
 // Find is like filter, but instead returns just the one you are looking for
 // find the comment with the ID of 823423
+const comment = comments.find(comment => comment.id === 823423)
+console.log(comment);
 
 // Array.prototype.findIndex()
 // Find the comment with this ID
